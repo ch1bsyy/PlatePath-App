@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Restaurant Apps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="manifest" href="./app.webmanifest" />
+    <link rel="icon" href="./favicon.png" />
+    <meta name="theme-color" content="#dc5f00" />
+    <link rel="apple-touch-icon" href="/icons/screen-icons/icon-192x192.png" />
+
+    <meta
+      name="description"
+      content="PlatePath dirancang untuk memberikan informasi detail mengenai katalog restoran."
+    />
+
+    <!-- Google Fonts-->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap"
+    />
+
+    <!-- Preload Font Awesome CSS -->
+    <link
+      rel="preload"
+      href="https://use.fontawesome.com/b070c8f1df.css"
+      as="style"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/b070c8f1df.css" />
+
+    <style>
+      body {
+        font-family: "Alegreya Sans", "Nunito", Arial, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-to-content">Skip To Content</a>
+    <app-bar></app-bar>
+    <loading-indicator></loading-indicator>
+    <main id="main-content"></main>
+    <app-footer></app-footer>
+    <!-- Defer Font Awesome script to avoid blocking -->
+    <script defer src="https://use.fontawesome.com/b070c8f1df.js"></script>
+  </body>
+</html>
